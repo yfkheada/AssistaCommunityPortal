@@ -36,10 +36,10 @@
     <DnxInvisibleContent Include="package.json" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ACPMddel\ACPModel.csproj" />
+    <DnxInvisibleFolder Include="scripts\back\" />
   </ItemGroup>
   <ItemGroup>
-    <DnxInvisibleFolder Include="scripts\back\" />
+    <ProjectReference Include="..\..\ACPMddel\ACPModel.csproj" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.targets" Condition="'$(VSToolsPath)' != ''" />
 </Project>
