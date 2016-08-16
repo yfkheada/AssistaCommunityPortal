@@ -38,5 +38,8 @@
   <ItemGroup>
     <DnxInvisibleFolder Include="scripts\back\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ACPMddel\ACPModel.csproj" />
+  </ItemGroup>
   <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.targets" Condition="'$(VSToolsPath)' != ''" />
 </Project>

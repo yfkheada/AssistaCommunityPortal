@@ -5,6 +5,20 @@
       "bin": {
         "assembly": "../../lib/dnx451/ACPModel.dll"
       }
+    },
+    "net451": {
+      "wrappedProject": "../../src/ACPMddel/ACPModel.csproj",
+      "bin": {
+        "assembly": "../../src/ACPMddel/obj/{configuration}/ACPModel.dll",
+        "pdb": "../../src/ACPMddel/obj/{configuration}/ACPModel.pdb"
+      },
+      "dependencies": {
+        "EntityFramework": "6.1.3",
+        "MySql.Data": "6.9.8",
+        "MySql.Data.Entities": "6.8.3.0",
+        "MySql.Data.Entity": "6.9.8",
+        "MySql.Data.Entity.EF6": "1.0.0-*"
+      }
     }
   }
 }

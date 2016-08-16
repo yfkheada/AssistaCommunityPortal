@@ -1897,14 +1897,9 @@
           "lib/net40/Microsoft.Web.Infrastructure.dll": {}
         }
       },
-      "MySql.Data/6.9.8": {
-        "type": "package",
-        "compile": {
-          "lib/net45/MySql.Data.dll": {}
-        },
-        "runtime": {
-          "lib/net45/MySql.Data.dll": {}
-        }
+      "MySql.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
       },
       "MySql.Data.Entities/6.8.3": {
         "type": "package",
@@ -4144,14 +4139,9 @@
           "lib/net40/Microsoft.Web.Infrastructure.dll": {}
         }
       },
-      "MySql.Data/6.9.8": {
-        "type": "package",
-        "compile": {
-          "lib/net45/MySql.Data.dll": {}
-        },
-        "runtime": {
-          "lib/net45/MySql.Data.dll": {}
-        }
+      "MySql.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
       },
       "MySql.Data.Entities/6.8.3": {
         "type": "package",
@@ -6391,14 +6381,9 @@
           "lib/net40/Microsoft.Web.Infrastructure.dll": {}
         }
       },
-      "MySql.Data/6.9.8": {
-        "type": "package",
-        "compile": {
-          "lib/net45/MySql.Data.dll": {}
-        },
-        "runtime": {
-          "lib/net45/MySql.Data.dll": {}
-        }
+      "MySql.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
       },
       "MySql.Data.Entities/6.8.3": {
         "type": "package",
@@ -6745,6 +6730,10 @@
     "ACPModel/1.0.0": {
       "type": "project",
       "path": "../../wrap/ACPModel/project.json"
+    },
+    "MySql.Data/1.0.0": {
+      "type": "project",
+      "path": "../../wrap/MySql.Data/project.json"
     },
     "Antlr/3.4.1.9004": {
       "type": "package",
@@ -8215,23 +8204,6 @@
         "Microsoft.Web.Infrastructure.1.0.0.nupkg",
         "Microsoft.Web.Infrastructure.1.0.0.nupkg.sha512",
         "Microsoft.Web.Infrastructure.nuspec"
-      ]
-    },
-    "MySql.Data/6.9.8": {
-      "type": "package",
-      "sha512": "ZSkMKsB1J9Cb/nO3+GlfX/YttibU23y5ZQtn/xzzl3xfPK512wP1jNjiVG4AFvmeJrf02qHNc/GfXJGYYHN8Pg==",
-      "files": [
-        "CHANGES",
-        "content/app.config.transform",
-        "content/web.config.transform",
-        "lib/net20/MySql.Data.dll",
-        "lib/net20-cf/MySql.Data.CF.dll",
-        "lib/net40/MySql.Data.dll",
-        "lib/net45/MySql.Data.dll",
-        "MySql.Data.6.9.8.nupkg",
-        "MySql.Data.6.9.8.nupkg.sha512",
-        "MySql.Data.nuspec",
-        "Readme.txt"
       ]
     },
     "MySql.Data.Entities/6.8.3": {
