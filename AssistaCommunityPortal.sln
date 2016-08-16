@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AssistaCommunityPortal", "src\AssistaCommunityPortal\AssistaCommunityPortal.xproj", "{2CACE935-B1BC-4835-834C-CEC2EB08F380}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACPModel", "ACPMddel\ACPModel.csproj", "{2D9B961C-260A-4EC2-A8E6-B4B4240F77AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACPModel", "src\ACPMddel\ACPModel.csproj", "{2D9B961C-260A-4EC2-A8E6-B4B4240F77AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,5 +34,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2CACE935-B1BC-4835-834C-CEC2EB08F380} = {E531124B-AD0D-45AB-BF94-A2864AC39ACC}
+		{2D9B961C-260A-4EC2-A8E6-B4B4240F77AA} = {E531124B-AD0D-45AB-BF94-A2864AC39ACC}
 	EndGlobalSection
 EndGlobal

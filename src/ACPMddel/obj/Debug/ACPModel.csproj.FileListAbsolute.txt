@@ -1,0 +1,1 @@
+C:\Users\Yaser\Documents\Visual Studio 2015\Projects\AssistaCommunityPortal\AssistaCommunityPortal\src\ACPMddel\obj\Debug\ACPModel.csprojResolveAssemblyReference.cache
