@@ -37,8 +37,9 @@
     "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-rc1-final",
     "MySql.Data": "6.9.8",
     "MySql.Data.Entities": "6.8.3",
-    "MySql.Data.Entity": "6.9.8",
-    "Newtonsoft.Json": "8.0.3"
+    "MySql.Data.Entity": "6.9.9",
+    "Newtonsoft.Json": "8.0.3",
+    "ACPModel2": "1.0.0-*"
   },
   "exclude": [
     "node_modules"
@@ -46,7 +47,6 @@
   "frameworks": {
     "dnx451": {
       "dependencies": {
-        "ACPModel": "1.0.0-*"
       }
     }
   },
